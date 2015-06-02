@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  border-bottom: 3px dashed #b4e7f8;
+  border-bottom: 0.167rem dashed #b4e7f8;
   cursor: help;
 }
 [data-tooltip],
@@ -17,8 +17,8 @@
 }
 [data-tooltip] {
   bottom: 100%;
-  padding: 3px 10px;
-  border-radius: 3px;
+  padding: 0.167rem 0.556rem;
+  border-radius: 0.167rem;
   background-color: #222;
   color: #FFF;
   white-space: nowrap;
@@ -27,9 +27,9 @@
 [data-tooltip]:after {
   content: "";
   top: 100%;
-  border: 5px solid transparent;
-  border-top: 5px solid #222;
-  margin-bottom: -10px;
+  border: 0.278rem solid transparent;
+  border-top: 0.278rem solid #222;
+  margin-bottom: -0.556em;
 }
 [data-has-tooltip]:hover [data-tooltip],
 [data-has-tooltip]:hover [data-tooltip]:after,
