@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Accessible CSS3 Tooltip</title>
+    <link href="tooltip.css" type="text/css" rel="stylesheet" />
+    <style>
+      html,
+      body {
+        font-size: 18px;
+        height: 100%;
+      }
+      body {
+        font-family: Helvetica, Helvetica Neue, Arial;
+        line-height: 1.5em;
+      }
+      .layout--constrained {
+        position: relative;
+        max-width: 600px;
+        margin: 5em auto;
+      }
+      p {
+        font-size: 1.075rem;
+        line-height: 1.75em;
+        color: rgba(0,0,0,0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout--constrained">
+      <h1>Accessible CSS3 Tooltip</h1>
+      <section aria-labelledby="example">
+        <h2 id="example">Example</h2>
+        <p>
+          Slow-carb Tumblr High Life biodiesel, stumptown keytar art party mumblecore PBR next level chillwave McSweeney's meh butcher Bushwick.
+          Twee try-hard meditation viral, master cleanse butcher pour-over Pitchfork Vice <span data-has-tooltip aria-describedby="tooltip-farm">farm-to-table<span data-tooltip id="tooltip-farm">This is a wide farm-to-table tooltip</span></span> paleo Portland brunch.
+          Ugh plaid lomo YOLO food truck, mustache migas +1 viral health goth tousled. Tofu chambray Portland chillwave chia authentic.
+          Typewriter hoodie freegan Intelligentsia fashion axe.
+        </p>
+        <p>
+          <span data-has-tooltip aria-describedby="tooltip-listicle">Listicle +1 craft beer tattooed mlkshk jean <span data-tooltip id="tooltip-listicle">This is a craft beer tooltip</span></span> shorts, Banksy ethical selfies Pitchfork Portland irony.
+          Tattooed four loko cardigan, ugh cold-pressed heirloom ennui meditation fap literally authentic migas.
+        </p>
+      </section>
+      <section aria-labelledby="code">
+        <h2 id="code">Code</h2>
+        <p>
+          <script src="https://gist.github.com/rpearce/75fc6603f4520dfe8f43.js"></script>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
