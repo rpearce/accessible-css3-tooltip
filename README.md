@@ -5,9 +5,9 @@ Accessible CSS3 Tooltip
 
 ```html
 The history of
-<span data-has-tooltip aria-describedby="tooltip-">
+<span data-has-tooltip aria-describedby="tooltip-cappuccino">
   cappuccino
-  <span data-tooltip id="tooltip-listicle">
+  <span data-tooltip id="tooltip-cappuccino">
     A combination of equal parts espresso, steamed milk and milk froth.
   </span>
 </span>
